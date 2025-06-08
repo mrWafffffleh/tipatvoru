@@ -23,6 +23,9 @@
       url('fonts/Brusnikanormal_version_02.ttf') format('truetype'),
       url('fonts/Brusnikanormal_version_02.svg#Brusnikanormal_version_02') format('svg');
     }
+    a{
+      text-decoration: none;
+    }
     body{
       width: 1366px;
       height: 4419px;
@@ -826,10 +829,10 @@
 <div id="top">
   <div id="top-logo">типа творю</div>
   <div id="middle">
-    <div id="middle-catalogue" class="middle">
+    <div id="middle-catalogue" class="middle" onclick="catalogueScroll()">
       каталог
     </div>
-    <div id="middle-brand" class="middle">
+    <div id="middle-brand" class="middle" onclick="aboutScroll()">
       о бренде
     </div>
     <div id="middle-buyers" class="middle">
@@ -897,14 +900,14 @@
     </div>
   </div>
   <div id="img-button">
-    <div id="button">
+    <a href="https://t.me/alllllien" id="button" target="_blank">
       <svg width="266" height="74" viewBox="0 0 266 74" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect width="266" height="74" rx="26" fill="#F6F3C2" fill-opacity="0.7"/>
       </svg>
-    </div>
-    <div id="button-label">
+    </a>
+    <a href="https://t.me/alllllien" id="button-label" target="_blank">
       заказать
-    </div>
+    </a>
   </div>
 </div>
 <div id="catalogue">
