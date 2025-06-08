@@ -14,6 +14,14 @@
       url('fonts/overdozesans.svg#overdozesans') format('svg');
       font-weight: 700;
     }
+    @font-face {
+      font-family: 'Brusnika';
+      src: url('fonts/Brusnikanormal_version_02.eot') format('embedded-opentype'),
+      url('fonts/Brusnikanormal_version_02.woff2') format('woff2'),
+      url('fonts/Brusnikanormal_version_02.woff') format('woff'),
+      url('fonts/Brusnikanormal_version_02.ttf') format('truetype'),
+      url('fonts/Brusnikanormal_version_02.svg#Brusnikanormal_version_02') format('svg');
+    }
     body{
       width: 1366px;
       height: 4419px;
@@ -289,12 +297,165 @@
       text-align: center;
       color: #43688C;
     }
+    #news{
+      position: absolute;
+      width: 1366px;
+    }
+    #lines2{
+      position: absolute;
+      width: 1366px;
+      height: 52px;
+      top: 1349.5px;
+      transform: rotate(-1.03deg);
+    }
+    #news-label{
+      position: absolute;
+      width: 442px;
+      height: 94px;
+      left: 462px;
+      top: 1330px;
+      font-family: overdozesans;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 96px;
+      line-height: 82px;
+      text-align: center;
+      color: #B1281A;
+    }
+    #new1-background{
+      position: absolute;
+      width: 344px;
+      height: 582px;
+      left: 97px;
+      top: 1449px;
+      background: #F6F3C2;
+      border-radius: 45px;
+    }
+    #new1-img{
+      position: absolute;
+      width: 344px;
+      height: 459px;
+      left: 97px;
+      top: 1449px;
+      border-radius: 45px 45px 0px 0px;
+      z-index: 999999;
+    }
+    #new1-heart{
+      position: absolute;
+      width: 42.72px;
+      height: 43.59px;
+      left: 360.13px;
+      top: 1934px;
+    }
+    #new1-txt{
+      position: absolute;
+      width: 218px;
+      height: 81px;
+      left: 134px;
+      top: 1928px;
+    }
+    .name{
+      font-family: Brusnika;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 100%;
+      letter-spacing: 0;
+    }
+    .price{
+      font-family: Brusnika;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 100%;
+      letter-spacing: 0;
+    }
+    #arrow-left-news{
+      position: absolute;
+      width: 24px;
+      height: 48px;
+      left: 40px;
+      top: 1655px;
+    }
+    #arrow-right-news{
+      position: absolute;
+      width: 24px;
+      height: 48px;
+      left: 1328px;
+      top: 1703px;
+    }
+    #new2-background{
+      position: absolute;
+      width: 357px;
+      height: 582px;
+      left: 505px;
+      top: 1449px;
+      background: #F6F3C2;
+      border-radius: 45px;
+    }
+    #new2-img{
+      position: absolute;
+      width: 357px;
+      height: 464px;
+      left: 505px;
+      top: 1449px;
+      border-radius: 45px 45px 0px 0px;
+      z-index: 999999;
+    }
+    #new2-heart{
+      position: absolute;
+      width: 42.72px;
+      height: 43.59px;
+      left: 791.13px;
+      top: 1934px;
+    }
+    #new2-txt{
+      position: absolute;
+      width: 218px;
+      height: 81px;
+      left: 545px;
+      top: 1928px;
+    }
+    #new3-background{
+      position: absolute;
+      width: 345px;
+      height: 582px;
+      left: 926px;
+      top: 1449px;
+      background: #F6F3C2;
+      border-radius: 45px;
+    }
+    #new3-img{
+      position: absolute;
+      width: 345px;
+      height: 459px;
+      left: 926px;
+      top: 1449px;
+      border-radius: 45px 45px 0px 0px;
+      z-index: 9999;
+    }
+    #new3-heart{
+      position: absolute;
+      width: 42.72px;
+      height: 43.59px;
+      left: 1196.13px;
+      top: 1934px;
+    }
+    #new3-txt{
+      position: absolute;
+      width: 218px;
+      height: 81px;
+      left: 972px;
+      top: 1928px;
+    }
   </style>
 </head>
 <body id="body">
 <div id="top">
   <div id="top-logo">типа творю</div>
-  <div id="middle">каталог     о бренде     покупателям     </div>
+  <div id="middle">
+    <div id="about">
+
+    </div>
+  </div>
   <div id="heart">
     <svg width="51" height="45" viewBox="0 0 51 45" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M25.4948 42.0402C-8.36585 8.17967 0.604292 -10.8541 25.4948 14.0363C50.3853 -10.8542 59.3553 8.17964 25.4948 42.0402Z" stroke="#B1281A" stroke-width="5" stroke-linejoin="round"/>
@@ -387,6 +548,67 @@
     <div id="cardigan">
       <img src="img.png" alt="" id="cardigan-img">
       <label for="cardigan-img">кардиганы</label>
+    </div>
+  </div>
+</div>
+<div id="news">
+  <div id="lines2">
+    <svg width="1366" height="47" viewBox="0 0 1366 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1358.81 1.75173C1334.81 2.18221 1310.82 2.61269 1286.82 3.04317C1278.26 3.1967 1269.7 6.18632 1260.57 6.35005C1253.96 6.46856 1243.06 4.53396 1237.05 7.40225C1220.87 15.1161 1216.93 26.9844 1197.25 27.3375C1179.71 27.6521 1162.17 27.9667 1144.64 28.2813C1106.35 28.9682 1070.8 12.5903 1032.2 13.2829C1013.74 13.614 995.283 13.9452 976.824 14.2763C961.387 14.5532 949.87 20.4317 934.01 20.7162C917.058 21.0203 899.53 22.942 883.341 18.1591C868.914 13.8966 849.605 10.3561 834.185 14.1568C822.094 17.1371 805.58 23.3326 796.483 31.061C783.101 42.4302 764.292 32.194 752.696 26.1747C737.646 18.3621 706.433 24.7989 690.36 25.0872C664.467 25.5518 638.574 26.0163 612.681 26.4808C603.723 26.6415 596.465 32.4435 588.018 32.5951C578.532 32.7652 569.047 32.9354 559.561 33.1056C540.089 33.4549 522.188 30.9401 502.905 31.2861C489.308 31.53 476.566 23.5366 464.503 17.7954C449.79 10.7932 431.924 9.8721 415.897 10.1596C391.286 10.6011 369.155 14.4049 346.101 22.1252C326.588 28.6601 303.741 26.3513 283.251 26.7188C270.832 26.9416 257.102 29.0147 245.218 25.1954C232.869 21.2265 224.857 11.0725 212.267 6.72291C195.279 0.853833 156.812 2.59633 140.316 10.0619C126.397 16.3609 111.54 29.7993 95.7451 30.0827C79.4979 30.3741 64.7905 36.3098 48.0089 36.6109C40.6527 36.7428 32.1979 36.8001 26.7184 42.0345C17.5087 50.8322 13.297 40.0695 28.5247 39.7963C46.2264 39.4788 66.065 43.6082 79.1213 29.7507C90.349 17.834 136.916 33.6315 151.877 36.9532C173.49 41.752 189.618 40.1411 209.956 32.2876C230.869 24.2118 255.119 21.5517 277.612 21.1482C301.909 20.7123 326.086 9.88413 350.165 8.50291C372.361 7.22973 389.821 17.5092 411.281 18.7502C434.315 20.0822 454.988 29.3098 478.704 28.8843C505.317 28.4069 529.987 25.4138 555.976 21.9838C596.014 16.6996 635.679 2.53216 676.259 11.0031C692.098 14.3093 708.49 13.4183 724.766 13.1263C746.775 12.7315 762.723 20.2664 782.56 26.8993C817.737 38.6614 851.705 42.0442 888.682 41.3808C931.892 40.6056 972.86 26.6967 1015.74 21.9284C1047.2 18.4294 1077.76 6.79362 1109.62 6.2221C1122.59 5.98938 1135.57 5.75667 1148.54 5.52395C1160.4 5.3112 1171.03 10.3476 1182.33 10.5896C1201.03 10.9903 1221.15 21.4208 1238.8 28.01C1258.39 35.3217 1285.42 34.2635 1306.15 33.8916C1317.67 33.6848 1343.59 37.806 1352.22 28.6537C1355.27 25.4073 1352.07 21.7241 1357.78 21.6216C1359.62 21.5886 1368.09 22.5309 1364.69 20.8674C1357.58 17.3848 1348.92 18.9446 1341.12 19.0846C1322.37 19.4209 1308.04 18.702 1290.4 13.6925C1269.24 7.68598 1250.55 3.69387 1228.68 4.08625C1181.45 4.93359 1136.01 8.33849 1090.52 22.1623C1046.18 35.6371 1002.76 36.4984 956.465 37.3289C939.716 37.6294 924.148 36.0469 907.961 35.3631C885.465 34.4127 859.295 25.5615 835.77 25.3145C821.94 25.1694 807.193 23.321 793.533 21.0306C779.561 18.6879 762.344 12.4522 748.3 12.7041C715.472 13.2931 683.185 9.93113 650.007 14.31C635.271 16.2548 620.386 16.9611 605.965 20.9294C597.346 23.3014 587.033 29.278 578.276 29.9339C556.503 31.5647 534.314 33.5585 511.877 33.961C486.682 34.413 461.784 34.6753 437.02 38.2974C416.139 41.3517 396.716 44.6621 377.592 36.3701C354.624 26.4111 326.241 25.4708 301.722 18.5099C278.968 12.0501 250.269 11.1847 226.802 10.716C211.709 10.4146 190.949 10.9243 177.861 18.6838C160.218 29.143 139.449 20.1989 121.079 18.4421C80.161 14.5289 40.5099 14.0581 -0.851132 14.8001" stroke="#A2C9EC" stroke-width="3" stroke-linecap="round"/>
+    </svg>
+  </div>
+  <div id="news-label">
+    новинки
+  </div>
+  <div id="arrow-left-news">
+    <svg width="34" height="58" viewBox="0 0 34 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M29 5L5 29L29 53" stroke="#A2C9EC" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+  <div id="arrow-right-news">
+    <svg width="34" height="58" viewBox="0 0 34 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M5 53L29 29L5 5" stroke="#A2C9EC" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+  <div id="new1">
+    <img src="img_5.png" alt="" id="new1-img">
+    <div id="new1-background">
+
+    </div>
+    <div id="new1-heart">
+      <svg width="51" height="45" viewBox="0 0 51 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M25.4948 42.0402C-8.36585 8.17967 0.604292 -10.8541 25.4948 14.0363C50.3853 -10.8542 59.3553 8.17964 25.4948 42.0402Z" fill="#B1281A" stroke="#B1281A" stroke-width="5" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div id="new1-txt">
+      <label for="new1-img" class="name">Чепчик с бантом</label>
+      <label for="new1-img" class="price">2500 р.</label>
+    </div>
+  </div>
+  <div id="new2">
+    <img src="img_6.png" alt="" id="new2-img">
+    <div id="new2-background"></div>
+    <div id="new2-heart">
+      <svg width="51" height="45" viewBox="0 0 51 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M25.4948 42.0402C-8.36585 8.17967 0.604292 -10.8541 25.4948 14.0363C50.3853 -10.8542 59.3553 8.17964 25.4948 42.0402Z" stroke="#B1281A" stroke-width="5" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div id="new2-txt">
+      <label for="new2-img" class="name">Свитер “невесомость”</label>
+      <label for="new2-img" class="price">3500 р.</label>
+    </div>
+  </div>
+  <div id="new3">
+    <img src="img_7.png" alt="" id="new3-img">
+    <div id="new3-background"></div>
+    <div id="new3-heart">
+      <svg width="51" height="45" viewBox="0 0 51 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M25.4948 42.0402C-8.36585 8.17967 0.604292 -10.8541 25.4948 14.0363C50.3853 -10.8542 59.3553 8.17964 25.4948 42.0402Z" stroke="#B1281A" stroke-width="5" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div id="new3-txt">
+      <label for="new3-img" class="name">Свитер “Кукла”</label>
+      <label for="new3-img" class="price">5000 р.</label>
     </div>
   </div>
 </div>
