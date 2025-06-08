@@ -48,16 +48,18 @@
     }
     #middle{
       position: absolute;
-      width: 923px;
+      width: 500px;
       height: 60px;
-      left: 240px;
+      left: 490px;
       top: 57px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .middle{
       font-family: overdozesans;
-      font-style: normal;
       font-weight: 700;
       font-size: 36px;
-      line-height: 31px;
-      text-align: center;
       color: #43688B;
     }
     #heart{
@@ -823,8 +825,14 @@
 <div id="top">
   <div id="top-logo">типа творю</div>
   <div id="middle">
-    <div id="about">
-
+    <div id="middle-catalogue" class="middle">
+      каталог
+    </div>
+    <div id="middle-brand" class="middle">
+      о бренде
+    </div>
+    <div id="middle-buyers" class="middle">
+      покупателям
     </div>
   </div>
   <div id="heart">
