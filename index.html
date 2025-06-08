@@ -379,8 +379,9 @@
       position: absolute;
       width: 24px;
       height: 48px;
-      left: 1328px;
-      top: 1703px;
+      right: 40px;
+      top: 1670px;
+      transform: rotate(-180deg);
     }
     #new2-background{
       position: absolute;
@@ -445,6 +446,121 @@
       height: 81px;
       left: 972px;
       top: 1928px;
+    }
+    #lines3{
+      position: absolute;
+      width: 1366px;
+      height: 52px;
+      left: 0px;
+      top: 2116.5px;
+      transform: rotate(-1.03deg);
+    }
+    #best-label{
+      position: absolute;
+      width: 442px;
+      height: 94px;
+      left: 463px;
+      top: 2097px;
+      font-family: overdozesans;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 96px;
+      line-height: 82px;
+      text-align: center;
+      color: #B1281A;
+    }
+    #best1-img{
+      position: absolute;
+      width: 344px;
+      height: 459px;
+      left: 97px;
+      top: 2236px;
+      z-index: 9999;
+    }
+    #best1-background{
+      position: absolute;
+      width: 344px;
+      height: 582px;
+      left: 97px;
+      top: 2236px;
+      background: #F6F3C2;
+      border-radius: 45px;
+    }
+    #best1-heart{
+      position: absolute;
+      width: 42.72px;
+      height: 43.59px;
+      left: 360.13px;
+      top: 2721px;
+    }
+    #best1-txt{
+      position: absolute;
+      width: 218px;
+      height: 81px;
+      left: 134px;
+      top: 2715px;
+    }
+    #best2-img{
+      position: absolute;
+      width: 357px;
+      height: 464px;
+      left: 505px;
+      top: 2236px;
+      z-index: 9999;
+    }
+    #best2-background{
+      position: absolute;
+      width: 357px;
+      height: 582px;
+      left: 505px;
+      top: 2236px;
+      background: #F6F3C2;
+      border-radius: 45px;
+    }
+    #best2-heart{
+      position: absolute;
+      width: 42.72px;
+      height: 43.59px;
+      left: 791.13px;
+      top: 2721px;
+    }
+    #best2-txt{
+      position: absolute;
+      width: 218px;
+      height: 81px;
+      left: 545px;
+      top: 2715px;
+    }
+    #best3-img{
+      position: absolute;
+      width: 345px;
+      height: 459px;
+      left: 926px;
+      top: 2236px;
+      z-index: 9999;
+    }
+    #best3-background{
+      position: absolute;
+      width: 345px;
+      height: 582px;
+      left: 926px;
+      top: 2236px;
+      background: #F6F3C2;
+      border-radius: 45px;
+    }
+    #best3-heart{
+      position: absolute;
+      width: 42.72px;
+      height: 43.59px;
+      left: 1196.13px;
+      top: 2721px;
+    }
+    #best3-txt{
+      position: absolute;
+      width: 218px;
+      height: 81px;
+      left: 972px;
+      top: 2715px;
     }
   </style>
 </head>
@@ -567,7 +683,7 @@
   </div>
   <div id="arrow-right-news">
     <svg width="34" height="58" viewBox="0 0 34 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M5 53L29 29L5 5" stroke="#A2C9EC" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M29 5L5 29L29 53" stroke="#A2C9EC" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
   </div>
   <div id="new1">
@@ -609,6 +725,67 @@
     <div id="new3-txt">
       <label for="new3-img" class="name">Свитер “Кукла”</label>
       <label for="new3-img" class="price">5000 р.</label>
+    </div>
+  </div>
+</div>
+<div id="best">
+  <div id="lines3">
+    <svg width="1366" height="47" viewBox="0 0 1366 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1359.81 1.7516C1335.81 2.18208 1311.82 2.61256 1287.82 3.04304C1279.26 3.19658 1270.7 6.1862 1261.57 6.34993C1254.96 6.46844 1244.06 4.53384 1238.05 7.40213C1221.87 15.116 1217.93 26.9843 1198.25 27.3374C1180.71 27.652 1163.17 27.9666 1145.64 28.2811C1107.35 28.9681 1071.8 12.5902 1033.2 13.2828C1014.74 13.6139 996.283 13.945 977.824 14.2762C962.387 14.5531 950.87 20.4316 935.01 20.7161C918.058 21.0202 900.53 22.9419 884.341 18.159C869.914 13.8964 850.605 10.356 835.185 14.1567C823.094 17.137 806.58 23.3325 797.483 31.0609C784.101 42.4301 765.292 32.1939 753.696 26.1745C738.646 18.3619 707.433 24.7988 691.36 25.0871C665.467 25.5516 639.574 26.0162 613.681 26.4807C604.723 26.6414 597.465 32.4434 589.018 32.595C579.532 32.7651 570.047 32.9353 560.561 33.1055C541.089 33.4548 523.188 30.94 503.905 31.286C490.308 31.5299 477.566 23.5365 465.503 17.7953C450.79 10.7931 432.924 9.87197 416.897 10.1595C392.286 10.601 370.155 14.4048 347.101 22.1251C327.588 28.66 304.741 26.3511 284.251 26.7187C271.832 26.9415 258.102 29.0146 246.218 25.1953C233.869 21.2263 225.857 11.0724 213.267 6.72278C196.279 0.85371 157.812 2.59621 141.316 10.0617C127.397 16.3607 112.54 29.7992 96.7451 30.0825C80.4979 30.374 65.7905 36.3097 49.0089 36.6108C41.6527 36.7427 33.1979 36.7999 27.7184 42.0343C18.5087 50.8321 14.297 40.0694 29.5247 39.7962C47.2264 39.4787 67.065 43.6081 80.1213 29.7506C91.349 17.8339 137.916 33.6314 152.877 36.9531C174.49 41.7518 190.618 40.141 210.956 32.2875C231.869 24.2117 256.119 21.5516 278.612 21.1481C302.909 20.7122 327.086 9.88401 351.165 8.50279C373.361 7.22961 390.821 17.5091 412.281 18.7501C435.315 20.0821 455.988 29.3096 479.704 28.8842C506.317 28.4068 530.987 25.4137 556.976 21.9837C597.014 16.6995 636.679 2.53204 677.259 11.003C693.098 14.3092 709.49 13.4182 725.766 13.1262C747.775 12.7314 763.723 20.2663 783.56 26.8992C818.737 38.6612 852.705 42.0441 889.682 41.3807C932.892 40.6055 973.86 26.6966 1016.74 21.9283C1048.2 18.4292 1078.76 6.7935 1110.62 6.22198C1123.59 5.98926 1136.57 5.75654 1149.54 5.52383C1161.4 5.31108 1172.03 10.3475 1183.33 10.5895C1202.03 10.9902 1222.15 21.4207 1239.8 28.0098C1259.39 35.3216 1286.42 34.2633 1307.15 33.8915C1318.67 33.6847 1344.59 37.8058 1353.22 28.6536C1356.27 25.4072 1353.07 21.724 1358.78 21.6215C1360.62 21.5885 1369.09 22.5308 1365.69 20.8673C1358.58 17.3847 1349.92 18.9445 1342.12 19.0845C1323.37 19.4208 1309.04 18.7019 1291.4 13.6924C1270.24 7.68585 1251.55 3.69375 1229.68 4.08613C1182.45 4.93346 1137.01 8.33837 1091.52 22.1622C1047.18 35.637 1003.76 36.4982 957.465 37.3288C940.716 37.6292 925.148 36.0468 908.961 35.363C886.465 34.4126 860.295 25.5614 836.77 25.3144C822.94 25.1692 808.193 23.3208 794.533 21.0305C780.561 18.6878 763.344 12.4521 749.3 12.704C716.472 13.2929 684.185 9.93101 651.007 14.3098C636.271 16.2546 621.386 16.961 606.965 20.9293C598.346 23.3013 588.033 29.2779 579.276 29.9338C557.503 31.5646 535.314 33.5584 512.877 33.9609C487.682 34.4129 462.784 34.6752 438.02 38.2973C417.139 41.3516 397.716 44.662 378.592 36.3699C355.624 26.411 327.241 25.4707 302.722 18.5098C279.968 12.0499 251.269 11.1845 227.802 10.7159C212.709 10.4145 191.949 10.9241 178.861 18.6837C161.218 29.1429 140.449 20.1988 122.079 18.4419C81.161 14.5288 41.5099 14.0579 0.148868 14.7999" stroke="#A2C9EC" stroke-width="3" stroke-linecap="round"/>
+    </svg>
+  </div>
+  <div id="best-label">
+    <label for="lines3">Бестселлеры</label>
+  </div>
+  <div id="arrow-left-best">
+    <svg width="34" height="58" viewBox="0 0 34 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M29 5L5 29L29 53" stroke="#A2C9EC" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+  <div id="arrow-right-best">
+    <svg width="34" height="58" viewBox="0 0 34 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M29 5L5 29L29 53" stroke="#A2C9EC" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+  <div id="best1">
+    <img src="img_8.png" alt="" id="best1-img">
+    <div id="best1-background">
+
+    </div>
+    <div id="best1-heart">
+      <svg width="51" height="45" viewBox="0 0 51 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M25.4948 42.0402C-8.36585 8.17967 0.604292 -10.8541 25.4948 14.0363C50.3853 -10.8542 59.3553 8.17964 25.4948 42.0402Z" stroke="#B1281A" stroke-width="5" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div id="best1-txt">
+      <label for="best1-img" class="name">Кардиган “скитлс”</label>
+      <label for="best1-img" class="price">5500 р.</label>
+    </div>
+  </div>
+  <div id="best2">
+    <img src="img_9.png" alt="" id="best2-img">
+    <div id="best2-background"></div>
+    <div id="best2-heart">
+      <svg width="51" height="45" viewBox="0 0 51 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M25.4948 42.0402C-8.36585 8.17967 0.604292 -10.8541 25.4948 14.0363C50.3853 -10.8542 59.3553 8.17964 25.4948 42.0402Z" fill="#B1281A" stroke="#B1281A" stroke-width="5" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div id="best2-txt">
+      <label for="best2-img" class="name">Кофточка “поле”</label>
+      <label for="best2-img" class="price">3500 р.</label>
+    </div>
+  </div>
+  <div id="best3">
+    <img src="img_10.png" alt="" id="best3-img">
+    <div id="best3-background"></div>
+    <div id="best3-heart">
+      <svg width="51" height="45" viewBox="0 0 51 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M25.4948 42.0402C-8.36585 8.17967 0.604292 -10.8541 25.4948 14.0363C50.3853 -10.8542 59.3553 8.17964 25.4948 42.0402Z" stroke="#B1281A" stroke-width="5" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div id="best3-txt">
+      <label for="best3-img" class="name">Панамка “тепло”</label>
+      <label for="best3-img" class="price">3000 р.</label>
     </div>
   </div>
 </div>
